@@ -1,0 +1,25 @@
+{
+  "name": "weather-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaya-ahmed/weather-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaya-ahmed/weather-nodejs/issues"
+  },
+  "homepage": "https://github.com/aaya-ahmed/weather-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
