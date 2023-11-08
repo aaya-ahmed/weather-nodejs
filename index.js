@@ -5,7 +5,7 @@ app.use(cors())
 const request=require('request')
 const port=4800;
 app.listen(port);
-app.get("/",(req,res)=>{
+app.get("/weather",(req,res)=>{
     const lat=req.query.lat
     const lon=req.query.lon
     const api=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=b0c4ed3b96fd0376fc1d2666ccee911b&units=metric`
