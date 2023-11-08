@@ -17,4 +17,3 @@ app.get("/",(req,res)=>{
         }
     })
 })
-app.listen("https://weather-nodejs-tfty.vercel.app/")
