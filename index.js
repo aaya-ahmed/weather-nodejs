@@ -3,6 +3,8 @@ const app=express()
 const cors = require('cors')
 app.use(cors())
 const request=require('request')
+const port=4800;
+app.listen(port);
 app.get("/",(req,res)=>{
     const lat=req.query.lat
     const lon=req.query.lon
@@ -17,3 +19,4 @@ app.get("/",(req,res)=>{
         }
     })
 })
+module.exports=app;
